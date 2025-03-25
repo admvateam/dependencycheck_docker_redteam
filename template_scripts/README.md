@@ -15,7 +15,7 @@ A vulnerable Java application that is built with Gradle --> https://github.com/D
 ## Uso (Local)
 
 * Buildear la imagen y su contenedor de Docker para DependencyCheck con el script de buildeo.
-* Hacer cd al directorio dependency-check-projects-to-scan en el contenedor y elejir uno de los directorios donde estan los proyectos clonados de ejemplo.
+* Hacer cd al directorio "dependency-check-projects-to-scan" en el contenedor y elejir uno de los directorios donde estan los proyectos clonados de ejemplo.
 * Correr el script .sh de escaneo de la siguiente forma:
 
 ```bash
