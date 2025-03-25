@@ -4,7 +4,7 @@ Estos Bash Scripts corren un scan de DependencyCheck para proyectos de buildeado
 El dockerfile clona y buildea los proyectos ejemplo correspondientes dentro del contenedor generado y a su vez añade el script del scan.
 Una vez terminado el scan los resultados son subidos a Fortify Software Security Center (SSC).
 
-## Proyectos ejemplo cargados
+# Proyectos ejemplo cargados
 
 ## Petclinc 
 A vulnerable Java application that is built with Maven --> https://github.com/varadharajanravi/Petclinic 
