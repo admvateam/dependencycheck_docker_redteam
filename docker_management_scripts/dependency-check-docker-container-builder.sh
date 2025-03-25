@@ -6,9 +6,9 @@
 set -e 
 
 # Defines the variables
-DC_TAG_NAME="dependency-check-sca"                  			# DependencyCheck Docker Image and Docker Container name
-DC_TAG_OS="ubuntu"                                  			# DependencyCheck Base OS used for the Docker Image
-DC_DOCKERFILE="./opt/DependencyCheck/dependency-check-sca.dockerfile"   # Path to the Dockerfile to build DependencyCheck Docker Image and Docker Container
+DC_TAG_NAME="dependency-check-sca"                  	# DependencyCheck Docker Image and Docker Container name
+DC_TAG_OS="ubuntu"                                  	# DependencyCheck Base OS used for the Docker Image
+DC_DOCKERFILE="./dependency-check-sca.dockerfile"   	# Path to the Dockerfile to build DependencyCheck Docker Image and Docker Container
 
 # Function to check the success of the last executed command
 # Takes an error message as an argument and exits the script if the command failed
