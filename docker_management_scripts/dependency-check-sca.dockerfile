@@ -143,7 +143,7 @@ RUN mkdir -p $DC_PROJECTS_TO_SCAN_DIRECTORY/Petclinic
 RUN git clone https://github.com/varadharajanravi/Petclinic.git $DC_PROJECTS_TO_SCAN_DIRECTORY/Petclinic
 
 # Copies the DependencyCheck Scan script template into the dummy test application (Petclinic) folder
-COPY /opt/DependencyCheck/template_scripts/maven/dependency-check-scan-template-script.sh $DC_PROJECTS_TO_SCAN_DIRECTORY/Petclinic
+COPY template_scripts/maven/dependency-check-scan-template-script.sh $DC_PROJECTS_TO_SCAN_DIRECTORY/Petclinic
 
 # Grants execute permissions to the script
 RUN chmod +x $DC_PROJECTS_TO_SCAN_DIRECTORY/Petclinic/dependency-check-scan-template-script.sh
@@ -162,7 +162,7 @@ RUN mkdir -p $DC_PROJECTS_TO_SCAN_DIRECTORY/vulnerable-java-application
 RUN git clone https://github.com/DataDog/vulnerable-java-application $DC_PROJECTS_TO_SCAN_DIRECTORY/vulnerable-java-application
 
 # Copies the DependencyCheck Scan script template into the dummy test application (vulnerable-java-application) folder
-COPY /opt/DependencyCheck/template_scripts/gradle/dependency-check-scan-template-script.sh $DC_PROJECTS_TO_SCAN_DIRECTORY/vulnerable-java-application
+COPY template_scripts/gradle/dependency-check-scan-template-script.sh $DC_PROJECTS_TO_SCAN_DIRECTORY/vulnerable-java-application
 
 # Grants execute permissions to the script
 RUN chmod +x $DC_PROJECTS_TO_SCAN_DIRECTORY/vulnerable-java-application/dependency-check-scan-template-script.sh
