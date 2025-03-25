@@ -12,13 +12,13 @@ git clone https://github.com/admvateam/dependencycheck_redteam.git
 
 ## Uso (Local)
 
-Para correr el script de buildeo simplemente ir mediante cd al path del directorio donde esta el archivo .sh y correrlo asi:
+Para correr el script que buildea la imagen y el contenedor simplemente ir mediante cd al path del directorio donde esta el archivo .sh de buildeo y correrlo asi:
 
 ```bash
 ./dependency-check-docker-container-builder.sh
 ```
 
-Para correr el script de destruccion simplemente ir mediante cd al path del directorio donde esta el archivo .sh y correrlo asi:
+Para correr el script que destruye la imagen y el contenedor simplemente ir mediante cd al path del directorio donde esta el archivo .sh de destruccion y correrlo asi:
 
 ```bash
 ./dependency-check-docker-container-destroyer.sh
